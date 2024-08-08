@@ -1,0 +1,7 @@
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap; /* Allows the cards to wrap to the next line if they exceed the container width */
+    padding: 1rem; /* Optional: Add some padding to prevent content from touching the edges */
+}

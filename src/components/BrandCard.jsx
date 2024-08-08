@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/card.css"
 
-function Card(props) {
+function BrandCard(props) {
   return (
     <>
       <div className="card">
@@ -12,4 +12,4 @@ function Card(props) {
   );
 }
 
-export default Card;
+export default BrandCard;

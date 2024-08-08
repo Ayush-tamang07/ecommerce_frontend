@@ -1,0 +1,33 @@
+footer{
+    background-color: #EDE4FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3rem;
+}
+.logo{
+    display: flex;
+}
+.website-name{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.support{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.legal{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}

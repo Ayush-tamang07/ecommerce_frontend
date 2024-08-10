@@ -1,6 +1,7 @@
 .cart-card {
     display: flex;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center; /* Ensures vertical alignment of all elements */
     border: 1px solid #e0e0e0;
     padding: 16px;
     border-radius: 8px;
@@ -8,24 +9,24 @@
     background-color: #fff;
     max-width: 800px; /* Set the maximum width for the card */
     width: 100%; /* Make sure it is responsive */
-
   }
   
   .cart-item {
     display: flex;
+    align-items: center; /* Align image and details vertically */
     flex: 2;
   }
   
   .product-image {
     margin-right: 20px;
     border-radius: 8px;
-    max-width: 200px; /* Reduce the size of the image */
+    max-width: 200px; /* Keep the image size reduced */
   }
   
   .product-details {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center; /* Align text vertically */
   }
   
   .product-title {
@@ -53,11 +54,13 @@
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+    text-align: center;
   }
   
   .cart-quantity h3 {
     font-size: 1rem;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
+    margin: 1rem;
   }
   
   .cart-quantity span {
@@ -69,7 +72,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: center; /* Align buttons vertically */
   }
   
   .cart-actions button {
@@ -83,11 +86,11 @@
   }
   
   .btn-remove {
-    background-color: #5B3232;
+    background-color: #5b3232;
   }
   
   .btn-buy {
-    background-color: #FF5733;
+    background-color: #ff5733;
   }
   
   .btn-remove:hover,

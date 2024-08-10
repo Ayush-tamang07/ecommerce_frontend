@@ -1,0 +1,15 @@
+.latest-product {
+    width: auto;
+    max-width: 1000px;
+    margin: 0 auto; /* Centers the container horizontally */
+}
+
+.latest-product__header {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.product-list{
+    display: flex;
+    gap: 2rem;
+}

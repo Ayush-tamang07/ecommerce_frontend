@@ -3,7 +3,7 @@ import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
 import ProductCard from "../components/ProductCard.jsx";
 // import ShopNowButton from "../components/ShopNowButton.jsx";
-import "../css/Product.css"
+import "../css/Product.css";
 
 function Product() {
   return (
@@ -11,18 +11,11 @@ function Product() {
       <Header />
       {/* <ShopNowButton/> */}
       <div className="product-container">
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+        <ProductCard
+          image="https://m.media-amazon.com/images/I/714mr6GxecL.jpg"
+          product_name="Redmi Note 13 Pro + 5G"
+          price="Rs. 59999"
+        />
       </div>
 
       <Footer />

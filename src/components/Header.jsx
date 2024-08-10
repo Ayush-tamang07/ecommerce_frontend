@@ -22,7 +22,7 @@ function Header() {
           </div>
           <div className="icon">
           <CiSearch />
-          <IoMdCart />
+          <Link to="/addToCart"><IoMdCart /></Link>
           <FaRegUserCircle />
           </div>
 

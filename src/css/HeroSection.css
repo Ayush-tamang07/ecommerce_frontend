@@ -1,0 +1,47 @@
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDE4FF;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .hero-content {
+    /* flex: 1; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    max-width: 500px; 
+    margin-right: 20px; 
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-search-input {
+    border: none; /* Remove the border */
+    border-radius: 8px; /* Adjust the radius as needed */
+    padding: 8px 12px; /* Optional: Add some padding for better appearance */
+    /* Add other styles as needed */
+  }
+  
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-get-the {
+    font-weight: bold;
+    color: #000;
+    font-size: 30px;
+  }
+  
+  .text-best-monitor {
+    font-weight: bold;
+    color: #FF833D;
+    font-size: 70px;
+  }
+  

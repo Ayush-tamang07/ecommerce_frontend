@@ -3,7 +3,7 @@ import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
 import ProductCard from "../components/ProductCard.jsx";
 // import ShopNowButton from "../components/ShopNowButton.jsx";
-import "../css/Product.css";
+import "../css/pagesCSS/Product.css";
 
 function Product() {
   return (

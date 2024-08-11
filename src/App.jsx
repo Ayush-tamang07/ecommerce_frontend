@@ -4,6 +4,7 @@ import Product from './pages/Product.jsx';
 import SingleProduct from './pages/SingleProduct.jsx';
 import AddToCart from './pages/AddToCart.jsx';
 import AboutUs from './pages/AboutUs.jsx';
+import UserForm from './pages/Form.jsx';
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/singleProduct" element={<SingleProduct />} />
         <Route path="/addToCart" element={<AddToCart />} />
         <Route path="/aboutUs" element={<AboutUs />} />
+        <Route path="/form" element={<UserForm />} />
       </Routes>
     </BrowserRouter>
   );

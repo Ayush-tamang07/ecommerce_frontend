@@ -3,6 +3,7 @@ import Home from './pages/Home.jsx';
 import Product from './pages/Product.jsx';
 import SingleProduct from './pages/SingleProduct.jsx';
 import AddToCart from './pages/AddToCart.jsx';
+import AboutUs from './pages/AboutUs.jsx';
 
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/singleProduct" element={<SingleProduct />} />
         <Route path="/addToCart" element={<AddToCart />} />
+        <Route path="/aboutUs" element={<AboutUs />} />
       </Routes>
     </BrowserRouter>
   );

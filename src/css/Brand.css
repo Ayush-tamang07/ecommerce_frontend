@@ -1,5 +1,6 @@
-.card-container{
+  .card-container {
     display: flex;
     justify-content: center;
     gap: 2.5rem;
-}
+    width: 100%;
+  }

@@ -5,7 +5,8 @@ import BrandCard from "./BrandCard";
 function Brand() {
   return (
     <>
-    {/* <span>Brand</span> */}
+    <div className="brand-container">
+    <h2 className="brand">Brand</h2>
     <div className="card-container">
     <BrandCard
       name="Mi"
@@ -23,6 +24,7 @@ function Brand() {
       name="Asus"
       image="https://logowik.com/content/uploads/images/424_asus.jpg"
     />
+    </div>
     </div>
     </>
   );

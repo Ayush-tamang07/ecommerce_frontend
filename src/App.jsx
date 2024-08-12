@@ -5,6 +5,7 @@ import SingleProduct from './pages/SingleProduct.jsx';
 import AddToCart from './pages/AddToCart.jsx';
 import AboutUs from './pages/AboutUs.jsx';
 import UserForm from './pages/Form.jsx';
+import LogIn from './pages/LogIn.jsx';
 
 
 export default function App() {
@@ -16,7 +17,8 @@ export default function App() {
         <Route path="/singleProduct" element={<SingleProduct />} />
         <Route path="/addToCart" element={<AddToCart />} />
         <Route path="/aboutUs" element={<AboutUs />} />
-        <Route path="/form" element={<UserForm />} />
+        <Route path="/register" element={<UserForm />} />
+        <Route path="/login" element={<LogIn />} />
       </Routes>
     </BrowserRouter>
   );

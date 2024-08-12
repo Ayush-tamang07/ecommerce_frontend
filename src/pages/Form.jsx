@@ -13,7 +13,7 @@ function UserForm() {
             <input type="password" placeholder='Password' />
             <input type="password" placeholder='Confirm Password' />
             <button>Sign Up</button>
-            <span>Already have an account? <Link>Sign in</Link></span>
+            <span>Already have an account? <Link to="/login">Sign in</Link></span>
         </form>
     </>
   );
